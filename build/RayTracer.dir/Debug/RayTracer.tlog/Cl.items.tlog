@@ -1,0 +1,13 @@
+C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\main.cpp;C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\build\RayTracer.dir\Debug\main.obj
+C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\Camera.cpp;C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\build\RayTracer.dir\Debug\Camera.obj
+C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\RasterPreviewRenderer.cpp;C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\build\RayTracer.dir\Debug\RasterPreviewRenderer.obj
+C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\RayTracer.cpp;C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\build\RayTracer.dir\Debug\RayTracer.obj
+C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\Scene.cpp;C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\build\RayTracer.dir\Debug\Scene.obj
+C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\ScenePreviewMesh.cpp;C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\build\RayTracer.dir\Debug\ScenePreviewMesh.obj
+C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\materials\DiffuseMaterial.cpp;C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\build\RayTracer.dir\Debug\DiffuseMaterial.obj
+C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\materials\MirrorMaterial.cpp;C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\build\RayTracer.dir\Debug\MirrorMaterial.obj
+C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\models\Sphere.cpp;C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\build\RayTracer.dir\Debug\Sphere.obj
+C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\models\Square.cpp;C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\build\RayTracer.dir\Debug\Square.obj
+C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\models\Tetrahedron.cpp;C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\build\RayTracer.dir\Debug\Tetrahedron.obj
+C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\primitives\PrimSphere.cpp;C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\build\RayTracer.dir\Debug\PrimSphere.obj
+C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\primitives\PrimTriangle.cpp;C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\build\RayTracer.dir\Debug\PrimTriangle.obj

@@ -1,0 +1,10 @@
+^C:\USERS\TGYAT\DOWNLOADS\RAYTRACER-INIT_SETUP\RAYTRACER-INIT_SETUP\BUILD\CMAKEFILES\BAC801EA0F7289C1ADB65A9605B1FC81\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup -BC:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/RayTracer.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

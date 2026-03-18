@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\RasterPreviewRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\RayTracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\ScenePreviewMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\materials\DiffuseMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\materials\MirrorMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\models\Sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\models\Square.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\models\Tetrahedron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\primitives\PrimSphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\primitives\PrimTriangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\scenes\cornell_box.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\scenes\open_sky.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\scenes\sphere_in_box.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\src\scenes\teapot_in_box.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tgyat\Downloads\RayTracer-init_setup\RayTracer-init_setup\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5A1CB49B-27DD-3012-88E0-B33A50230508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D82647C9-B332-376C-BB64-D5CE6CF8B799}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

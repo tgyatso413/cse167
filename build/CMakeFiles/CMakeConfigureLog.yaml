@@ -1,0 +1,2098 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Amazon Corretto\\jdk1.8.0_382\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\tgyat\\OneDrive\\Desktop\\School\\CISC 191\\apache-maven-3.9.4\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\tgyat\\.dotnet\\tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.4.0+6e61e96ac for .NET Framework
+      Build started 3/18/2026 3:57:59 PM.
+      
+      Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\4.3.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\4.3.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\4.3.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.53
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/4.3.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tgyat/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/tgyat/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Amazon Corretto\\jdk1.8.0_382\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\tgyat\\OneDrive\\Desktop\\School\\CISC 191\\apache-maven-3.9.4\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\tgyat\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tgyat/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/tgyat/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/lld-link.com"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/lld-link.exe"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/lld-link"
+      - "C:/Python313/Scripts/lld-link.com"
+      - "C:/Python313/Scripts/lld-link.exe"
+      - "C:/Python313/Scripts/lld-link"
+      - "C:/Python313/lld-link.com"
+      - "C:/Python313/lld-link.exe"
+      - "C:/Python313/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/lld-link.com"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/lld-link.exe"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/lld-link.com"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/lld-link.exe"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files (x86)/ZeroTier/One/lld-link.com"
+      - "C:/Program Files (x86)/ZeroTier/One/lld-link.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/tgyat/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/tgyat/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/tgyat/AppData/Roaming/npm/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/Users/tgyat/.dotnet/tools/lld-link.com"
+      - "C:/Users/tgyat/.dotnet/tools/lld-link.exe"
+      - "C:/Users/tgyat/.dotnet/tools/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Amazon Corretto\\jdk1.8.0_382\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\tgyat\\OneDrive\\Desktop\\School\\CISC 191\\apache-maven-3.9.4\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\tgyat\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tgyat/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/tgyat/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Amazon Corretto\\jdk1.8.0_382\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\tgyat\\OneDrive\\Desktop\\School\\CISC 191\\apache-maven-3.9.4\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\tgyat\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tgyat/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/tgyat/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/mt.com"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/mt.exe"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/mt"
+      - "C:/Python313/Scripts/mt.com"
+      - "C:/Python313/Scripts/mt.exe"
+      - "C:/Python313/Scripts/mt"
+      - "C:/Python313/mt.com"
+      - "C:/Python313/mt.exe"
+      - "C:/Python313/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/mt.com"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/mt.exe"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/mt.com"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/mt.exe"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/Program Files (x86)/ZeroTier/One/mt.com"
+      - "C:/Program Files (x86)/ZeroTier/One/mt.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/mt"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/mt"
+      - "C:/Users/tgyat/AppData/Roaming/npm/mt.com"
+      - "C:/Users/tgyat/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/tgyat/AppData/Roaming/npm/mt"
+      - "C:/MinGW/bin/mt.com"
+      - "C:/MinGW/bin/mt.exe"
+      - "C:/MinGW/bin/mt"
+      - "C:/Users/tgyat/.dotnet/tools/mt.com"
+      - "C:/Users/tgyat/.dotnet/tools/mt.exe"
+      - "C:/Users/tgyat/.dotnet/tools/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Amazon Corretto\\jdk1.8.0_382\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\tgyat\\OneDrive\\Desktop\\School\\CISC 191\\apache-maven-3.9.4\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\tgyat\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tgyat/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/tgyat/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Amazon Corretto\\jdk1.8.0_382\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\tgyat\\OneDrive\\Desktop\\School\\CISC 191\\apache-maven-3.9.4\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\tgyat\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tgyat/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/tgyat/.dotnet/tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/RayTracer/bin/"
+      - "C:/Program Files (x86)/RayTracer/sbin/"
+      - "C:/Program Files (x86)/RayTracer/"
+    searched_directories:
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/rc.com"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/rc.exe"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/rc"
+      - "C:/Python313/Scripts/rc.com"
+      - "C:/Python313/Scripts/rc.exe"
+      - "C:/Python313/Scripts/rc"
+      - "C:/Python313/rc.com"
+      - "C:/Python313/rc.exe"
+      - "C:/Python313/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/rc.com"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/rc.exe"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/rc.com"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/rc.exe"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "C:/Program Files (x86)/ZeroTier/One/rc.com"
+      - "C:/Program Files (x86)/ZeroTier/One/rc.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/rc"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/Users/tgyat/AppData/Roaming/npm/rc.com"
+      - "C:/Users/tgyat/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/tgyat/AppData/Roaming/npm/rc"
+      - "C:/MinGW/bin/rc.com"
+      - "C:/MinGW/bin/rc.exe"
+      - "C:/MinGW/bin/rc"
+      - "C:/Users/tgyat/.dotnet/tools/rc.com"
+      - "C:/Users/tgyat/.dotnet/tools/rc.exe"
+      - "C:/Users/tgyat/.dotnet/tools/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/RayTracer/bin/rc.com"
+      - "C:/Program Files (x86)/RayTracer/bin/rc.exe"
+      - "C:/Program Files (x86)/RayTracer/bin/rc"
+      - "C:/Program Files (x86)/RayTracer/sbin/rc.com"
+      - "C:/Program Files (x86)/RayTracer/sbin/rc.exe"
+      - "C:/Program Files (x86)/RayTracer/sbin/rc"
+      - "C:/Program Files (x86)/RayTracer/rc.com"
+      - "C:/Program Files (x86)/RayTracer/rc.exe"
+      - "C:/Program Files (x86)/RayTracer/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Amazon Corretto\\jdk1.8.0_382\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\tgyat\\OneDrive\\Desktop\\School\\CISC 191\\apache-maven-3.9.4\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\tgyat\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/RayTracer"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/RayTracer"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/CMakeScratch/TryCompile-w5lt9c"
+      binary: "C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/CMakeScratch/TryCompile-w5lt9c"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/CMakeScratch/TryCompile-w5lt9c'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_babe0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 3/18/2026 3:58:00 PM.
+        
+        Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5lt9c\\cmTC_babe0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5lt9c\\Debug\\".
+          Creating directory "cmTC_babe0.dir\\Debug\\cmTC_babe0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_babe0.dir\\Debug\\cmTC_babe0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_babe0.dir\\Debug\\cmTC_babe0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_babe0.dir\\Debug\\\\" /Fd"cmTC_babe0.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35727 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_babe0.dir\\Debug\\\\" /Fd"cmTC_babe0.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5lt9c\\Debug\\cmTC_babe0.exe" /INCREMENTAL /ILK:"cmTC_babe0.dir\\Debug\\cmTC_babe0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/CMakeScratch/TryCompile-w5lt9c/Debug/cmTC_babe0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/CMakeScratch/TryCompile-w5lt9c/Debug/cmTC_babe0.lib" /MACHINE:X64  /machine:x64 cmTC_babe0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_babe0.vcxproj -> C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5lt9c\\Debug\\cmTC_babe0.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_babe0.dir\\Debug\\cmTC_babe0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_babe0.dir\\Debug\\cmTC_babe0.tlog\\cmTC_babe0.lastbuildstate".
+        Done Building Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5lt9c\\cmTC_babe0.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.44
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35727.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:15 (check_ipo_supported)"
+    directories:
+      source: "C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 3/18/2026 3:58:01 PM.
+        
+        Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) on node 1 (default targets).
+        Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) is building "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (4) on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\".
+          Creating directory "foo.dir\\Debug\\foo.tlog\\".
+        InitializeBuildStatus:
+          Creating "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35727 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          foo.cpp
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /NOLOGO /MACHINE:X64 /LTCG foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          Deleting file "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+          Touching "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
+        Done Building Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "boo.dir\\Debug\\boo.tlog\\".
+        InitializeBuildStatus:
+          Creating "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35727 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          main.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /IMPLIB:"C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64 boo.dir\\Debug\\main.obj
+          Generating code
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          Finished generating code
+          boo.vcxproj -> C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
+        FinalizeBuildStatus:
+          Deleting file "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+          Touching "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
+        Done Building Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ALL_BUILD\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
+        Done Building Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.97
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Amazon Corretto\\jdk1.8.0_382\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\tgyat\\OneDrive\\Desktop\\School\\CISC 191\\apache-maven-3.9.4\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\tgyat\\.dotnet\\tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.4.0+6e61e96ac for .NET Framework
+      Build started 3/18/2026 3:58:15 PM.
+      
+      Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\4.3.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\4.3.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\4.3.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.45
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/4.3.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tgyat/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/tgyat/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Amazon Corretto\\jdk1.8.0_382\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\tgyat\\OneDrive\\Desktop\\School\\CISC 191\\apache-maven-3.9.4\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\tgyat\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tgyat/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/tgyat/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/lld-link.com"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/lld-link.exe"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/lld-link"
+      - "C:/Python313/Scripts/lld-link.com"
+      - "C:/Python313/Scripts/lld-link.exe"
+      - "C:/Python313/Scripts/lld-link"
+      - "C:/Python313/lld-link.com"
+      - "C:/Python313/lld-link.exe"
+      - "C:/Python313/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/lld-link.com"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/lld-link.exe"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/lld-link.com"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/lld-link.exe"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files (x86)/ZeroTier/One/lld-link.com"
+      - "C:/Program Files (x86)/ZeroTier/One/lld-link.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/tgyat/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/tgyat/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/tgyat/AppData/Roaming/npm/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/Users/tgyat/.dotnet/tools/lld-link.com"
+      - "C:/Users/tgyat/.dotnet/tools/lld-link.exe"
+      - "C:/Users/tgyat/.dotnet/tools/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Amazon Corretto\\jdk1.8.0_382\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\tgyat\\OneDrive\\Desktop\\School\\CISC 191\\apache-maven-3.9.4\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\tgyat\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tgyat/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/tgyat/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Amazon Corretto\\jdk1.8.0_382\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\tgyat\\OneDrive\\Desktop\\School\\CISC 191\\apache-maven-3.9.4\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\tgyat\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tgyat/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/tgyat/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/mt.com"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/mt.exe"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/mt"
+      - "C:/Python313/Scripts/mt.com"
+      - "C:/Python313/Scripts/mt.exe"
+      - "C:/Python313/Scripts/mt"
+      - "C:/Python313/mt.com"
+      - "C:/Python313/mt.exe"
+      - "C:/Python313/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/mt.com"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/mt.exe"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/mt.com"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/mt.exe"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/Program Files (x86)/ZeroTier/One/mt.com"
+      - "C:/Program Files (x86)/ZeroTier/One/mt.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/mt"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/mt"
+      - "C:/Users/tgyat/AppData/Roaming/npm/mt.com"
+      - "C:/Users/tgyat/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/tgyat/AppData/Roaming/npm/mt"
+      - "C:/MinGW/bin/mt.com"
+      - "C:/MinGW/bin/mt.exe"
+      - "C:/MinGW/bin/mt"
+      - "C:/Users/tgyat/.dotnet/tools/mt.com"
+      - "C:/Users/tgyat/.dotnet/tools/mt.exe"
+      - "C:/Users/tgyat/.dotnet/tools/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Amazon Corretto\\jdk1.8.0_382\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\tgyat\\OneDrive\\Desktop\\School\\CISC 191\\apache-maven-3.9.4\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\tgyat\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tgyat/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/tgyat/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Amazon Corretto\\jdk1.8.0_382\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\tgyat\\OneDrive\\Desktop\\School\\CISC 191\\apache-maven-3.9.4\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\tgyat\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Python313/Scripts/"
+      - "C:/Python313/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/tgyat/AppData/Roaming/npm/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/tgyat/.dotnet/tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/RayTracer/bin/"
+      - "C:/Program Files (x86)/RayTracer/sbin/"
+      - "C:/Program Files (x86)/RayTracer/"
+    searched_directories:
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/rc.com"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/rc.exe"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/rc"
+      - "C:/Python313/Scripts/rc.com"
+      - "C:/Python313/Scripts/rc.exe"
+      - "C:/Python313/Scripts/rc"
+      - "C:/Python313/rc.com"
+      - "C:/Python313/rc.exe"
+      - "C:/Python313/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/rc.com"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/rc.exe"
+      - "C:/Program Files/Amazon Corretto/jdk1.8.0_382/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/rc.com"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/rc.exe"
+      - "C:/Users/tgyat/OneDrive/Desktop/School/CISC 191/apache-maven-3.9.4/bin/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "C:/Program Files (x86)/ZeroTier/One/rc.com"
+      - "C:/Program Files (x86)/ZeroTier/One/rc.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/rc"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/tgyat/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/tgyat/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/tgyat/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/Users/tgyat/AppData/Roaming/npm/rc.com"
+      - "C:/Users/tgyat/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/tgyat/AppData/Roaming/npm/rc"
+      - "C:/MinGW/bin/rc.com"
+      - "C:/MinGW/bin/rc.exe"
+      - "C:/MinGW/bin/rc"
+      - "C:/Users/tgyat/.dotnet/tools/rc.com"
+      - "C:/Users/tgyat/.dotnet/tools/rc.exe"
+      - "C:/Users/tgyat/.dotnet/tools/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/RayTracer/bin/rc.com"
+      - "C:/Program Files (x86)/RayTracer/bin/rc.exe"
+      - "C:/Program Files (x86)/RayTracer/bin/rc"
+      - "C:/Program Files (x86)/RayTracer/sbin/rc.com"
+      - "C:/Program Files (x86)/RayTracer/sbin/rc.exe"
+      - "C:/Program Files (x86)/RayTracer/sbin/rc"
+      - "C:/Program Files (x86)/RayTracer/rc.com"
+      - "C:/Program Files (x86)/RayTracer/rc.exe"
+      - "C:/Program Files (x86)/RayTracer/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Python313\\Scripts\\"
+        - "C:\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Amazon Corretto\\jdk1.8.0_382\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\tgyat\\OneDrive\\Desktop\\School\\CISC 191\\apache-maven-3.9.4\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tgyat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\tgyat\\AppData\\Roaming\\npm"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\tgyat\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/RayTracer"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/RayTracer"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/CMakeScratch/TryCompile-9eufy1"
+      binary: "C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/CMakeScratch/TryCompile-9eufy1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/CMakeScratch/TryCompile-9eufy1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d8deb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 3/18/2026 3:58:16 PM.
+        
+        Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9eufy1\\cmTC_d8deb.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9eufy1\\Debug\\".
+          Creating directory "cmTC_d8deb.dir\\Debug\\cmTC_d8deb.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d8deb.dir\\Debug\\cmTC_d8deb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d8deb.dir\\Debug\\cmTC_d8deb.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_d8deb.dir\\Debug\\\\" /Fd"cmTC_d8deb.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35727 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_d8deb.dir\\Debug\\\\" /Fd"cmTC_d8deb.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9eufy1\\Debug\\cmTC_d8deb.exe" /INCREMENTAL /ILK:"cmTC_d8deb.dir\\Debug\\cmTC_d8deb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/CMakeScratch/TryCompile-9eufy1/Debug/cmTC_d8deb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/CMakeScratch/TryCompile-9eufy1/Debug/cmTC_d8deb.lib" /MACHINE:X64  /machine:x64 cmTC_d8deb.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d8deb.vcxproj -> C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9eufy1\\Debug\\cmTC_d8deb.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d8deb.dir\\Debug\\cmTC_d8deb.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d8deb.dir\\Debug\\cmTC_d8deb.tlog\\cmTC_d8deb.lastbuildstate".
+        Done Building Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9eufy1\\cmTC_d8deb.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35727.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:15 (check_ipo_supported)"
+    directories:
+      source: "C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 3/18/2026 3:58:17 PM.
+        
+        Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) on node 1 (default targets).
+        Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (3) is building "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (4) on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\".
+          Creating directory "foo.dir\\Debug\\foo.tlog\\".
+        InitializeBuildStatus:
+          Creating "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35727 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"foo.dir\\Debug\\\\" /Fd"C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp"
+          foo.cpp
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib" /NOLOGO /MACHINE:X64 /LTCG foo.dir\\Debug\\foo.obj
+          foo.vcxproj -> C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\foo.lib
+        FinalizeBuildStatus:
+          Deleting file "foo.dir\\Debug\\foo.tlog\\unsuccessfulbuild".
+          Touching "foo.dir\\Debug\\foo.tlog\\foo.lastbuildstate".
+        Done Building Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\foo.vcxproj" (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "boo.dir\\Debug\\boo.tlog\\".
+        InitializeBuildStatus:
+          Creating "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35727 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"boo.dir\\Debug\\\\" /Fd"boo.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp"
+          main.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe" /NOLOGO Debug\\foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"boo.dir\\Debug\\boo.iobj" /TLBID:1 /IMPLIB:"C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/_CMakeLTOTest-CXX/bin/Debug/boo.lib" /MACHINE:X64 boo.dir\\Debug\\main.obj
+          Generating code
+          Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
+          Finished generating code
+          boo.vcxproj -> C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\Debug\\boo.exe
+        FinalizeBuildStatus:
+          Deleting file "boo.dir\\Debug\\boo.tlog\\unsuccessfulbuild".
+          Touching "boo.dir\\Debug\\boo.tlog\\boo.lastbuildstate".
+        Done Building Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ALL_BUILD\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/tgyat/Downloads/RayTracer-init_setup/RayTracer-init_setup/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
+        Done Building Project "C:\\Users\\tgyat\\Downloads\\RayTracer-init_setup\\RayTracer-init_setup\\build\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\ALL_BUILD.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.01
+        
+      exitCode: 0
+...
