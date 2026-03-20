@@ -40,6 +40,47 @@ bool PrimTriangle::intersect(const Ray& ray, Intersection& out_hit) const {
      * Once valid:
      * out_hit = {t, point, normal, const_cast<PrimTriangle *>(this), nullptr};
      */
+    vec3 e1 = vertices[1] - vertices[0];
+    vec3 e2 = vertices[2] - vertices[0];
 
-    return false;  // Return `true` if intersection happened, otherwise return `false`.
+    vec3 normal = cross(e1, e2);
+
+    if (dot(normal, ray.dir) > 0.0f) {
+        return false;
+    }
+
+    vec3 pvec = cross(ray.dir, e2);
+    float determinant = dot(e1, pvec);
+
+    if (abs(determinant) < kEpsilon) {
+        return false;
+    }
+
+    float inv_det = 1.0f / determinant;
+    vec3 tvec = ray.p0 - vertices[0];
+    float u = inv_det * dot(tvec, pvec);
+    if (u < 0.0f || u > 1.0f) {
+        return false;
+    }
+
+    vec3 qvec = cross(tvec, e1);
+    float v = inv_det * dot(ray.dir, qvec);
+    if (v < 0.0f || u + v > 1.0f) {
+        return false;
+    }
+
+    float t = inv_det * dot(e2, qvec);
+    if (t < kEpsilon) {
+        return false;
+    }
+
+    vec3 point = ray.p0 + t * ray.dir;
+    vec3 interp_normal = (1.0f - u - v) * normals[0] 
+                    + u * normals[1] 
+                    + v * normals[2];
+
+    interp_normal = normalize(interp_normal);
+
+    out_hit = {t, point, interp_normal, const_cast<PrimTriangle*>(this), nullptr};
+    return true;
 }
