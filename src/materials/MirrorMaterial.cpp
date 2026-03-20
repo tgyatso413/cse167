@@ -27,7 +27,7 @@ Ray MirrorMaterial::sample_ray_and_update_radiance(Ray& ray, Intersection& inter
      * TODO(Task 6.2):
      * Calculate the perfect mirror reflection direction.
      */
-    vec3 reflection_dir = vec3(0.0f);  // TODO: update reflection direction
+    vec3 reflection_dir = (ray.dir - 2.0f * dot(ray.dir, normal) *normal);  // update reflection direction
 
     // Step 2: Calculate radiance
     /**
@@ -36,7 +36,7 @@ Ray MirrorMaterial::sample_ray_and_update_radiance(Ray& ray, Intersection& inter
      * Note:
      * - C_specular = `this->reflectance`
      */
-    vec3 W_specular = vec3(0.0f);  // TODO: throughput multiplier for current bounce
+    vec3 W_specular = this->reflectance; // throughput multiplier for current bounce
 
     ray.W_wip = ray.W_wip * W_specular;
     ray.p0 = point + kRayEpsilon * normal;
@@ -47,8 +47,6 @@ Ray MirrorMaterial::sample_ray_and_update_radiance(Ray& ray, Intersection& inter
 }
 
 glm::vec3 MirrorMaterial::color_of_last_bounce(Ray& ray, Intersection& intersection, Scene const& scene) {
-    // TODO: once mirror transport is implemented, return the intended mirror last-bounce contribution.
-    (void)ray;
-    (void)scene;
-    return 0.4f * normalize(intersection.normal) + vec3(0.6f);
+    // once mirror transport is implemented, return the intended mirror last-bounce contribution.
+    return vec3(0.0f);
 }

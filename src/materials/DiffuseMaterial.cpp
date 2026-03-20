@@ -37,11 +37,12 @@ Ray DiffuseMaterial::sample_ray_and_update_radiance(Ray& ray, Intersection& inte
     float s = rand01();
     float t = rand01();
 
-    // TODO: Update u, v based on Equation (8) in handout.
-    float u = 0.0f;
-    float v = 0.0f;
+    // Update u, v based on Equation (8) in handout.
+    float u = 2.0f *kPi * s;
+    float v = sqrt(1.0f - t);
 
-    vec3 hemisphere_sample = vec3(0.0f);  // TODO: Create cosine-weighted sampled local direction
+
+    vec3 hemisphere_sample(v * cos(u), sqrt(t), v * sin(u));   // Create cosine-weighted sampled local direction
 
     // The sampled direction above is in local coordinates.
     // Align it with the surface normal before updating the ray.
@@ -54,7 +55,7 @@ Ray DiffuseMaterial::sample_ray_and_update_radiance(Ray& ray, Intersection& inte
      * Note:
      * - C_diffuse = `this->albedo`
      */
-    vec3 W_diffuse = vec3(0.0f);  // TODO: throughput multiplier for current bounce
+    vec3 W_diffuse = this->albedo;  // throughput multiplier for current bounce
 
     ray.W_wip = ray.W_wip * W_diffuse;
     ray.p0 = point + kRayEpsilon * normal;
@@ -101,17 +102,17 @@ glm::vec3 DiffuseMaterial::get_direct_lighting(Intersection const& intersection,
 
             // Shoot a shadow ray towards light source.
             Ray shadow_ray;
-            shadow_ray.p0 = vec3(0.0f);   // TODO: offset from intersection point by epsilon along normal
-            shadow_ray.dir = vec3(0.0f);  // TODO: direction from shadow_ray.p0 to light_pos
+            shadow_ray.p0 = intersection.point + kRayEpsilon * intersection.normal;   // offset from intersection point by epsilon along normal   // TODO: offset from intersection point by epsilon along normal
+             shadow_ray.dir = light_dir;  // direction from shadow_ray.p0 to light_pos
 
             // TODO(Task 4.1): visibility check using nearest hit.
             Intersection shadow_hit;
-            bool is_visible = false;  // TODO: replace with intersect_nearest-based visibility logic
+            bool is_visible = (scene.intersect_nearest(shadow_ray, shadow_hit)) && shadow_hit.model == light_source;  // replace with intersect_nearest-based visibility logic
 
             // TODO(Task 4.1): area-light normal term and emitted radiance.
-            float c_y = 0.0f;                // TODO: cosine term at light sample
-            vec3 emitted_radiance(0.0f);     // TODO: derive from light_source->material->emission
-            vec3 direct_light = vec3(0.0f);  // TODO: Lambert contribution (Eq. 3 style)
+            float c_y = std::max(dot(shadow_hit.normal, -light_dir), 0.0f); // cosine term at light sample
+            vec3 emitted_radiance = light_source->material->emission/light_source->get_surface_area(); // derive from light_source->material->emission
+            vec3 direct_light = emitted_radiance * (c_x * c_y)/dist2;  // Lambert contribution (Eq. 3 style)
 
             if (is_visible)
                 summed_samples += direct_light;
@@ -119,7 +120,7 @@ glm::vec3 DiffuseMaterial::get_direct_lighting(Intersection const& intersection,
 
         float light_area = light_source->get_surface_area();
         float normalization = (kDirectLightSamples > 0) ? (light_area / static_cast<float>(kDirectLightSamples)) : 0.0f;
-        vec3 light_contribution = vec3(0.0f);  // TODO: combine sample sum and estimator scaling
+        vec3 light_contribution = (light_area/float(kDirectLightSamples)) * summed_samples;  // combine sample sum and estimator scaling
         (void)normalization;
         (void)summed_samples;
         cumulative_direct_light += light_contribution;
@@ -138,8 +139,5 @@ vec3 DiffuseMaterial::color_of_last_bounce(Ray& ray, Intersection& intersection,
     // TODO(Task 4.1): replace fallback with finished direct-light shading.
     vec3 direct_light = this->get_direct_lighting(intersection, scene);
     vec3 shaded = ray.W_wip * direct_light;
-    (void)shaded;  // TODO (Task 4.1): Return `shaded` once `get_direct_lighting` is implemented.
-
-    // Boilerplate fallback while Task 4.1 is incomplete. (Remove this normal shading once Task 4.1 is implemented)
-    return 0.4f * normalize(intersection.normal) + vec3(0.6f);
+    return shaded;  // (Task 4.1): Return `shaded` once `get_direct_lighting` is implemented.
 }
