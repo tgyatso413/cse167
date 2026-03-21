@@ -114,6 +114,17 @@ Ray Scene::intersect(Ray& ray) const {
         // update color for nth last bounce
         ray.color = intersection.model->material->color_of_last_bounce(ray, intersection, *this);
 
+        // Task 7: Russian Roulette
+        float lambda = 0.5f; // introduce a parameter 0 < 𝜆 < 1
+        float cointoss = rand01(); // t every bounce, we toss a coin with probability 𝜆 to decide whether we want to terminate the path tracing
+
+        if (cointoss < lambda) {
+            ray.terminate = true; 
+            return ray;
+        } else {
+            ray.W_wip *= (1.0f / (1.0f - lambda)); // e should re-weight the resulting color from an n-bounce path
+        }
+
         // This function will give out next ray and
         // update wip color params as well
         ray = intersection.model->material->sample_ray_and_update_radiance(ray, intersection);
